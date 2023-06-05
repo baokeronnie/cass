@@ -948,10 +948,10 @@ li::before{
     margin-bottom: 7px;
   }
   .pra li{
-      color: black;
+      color: red;
       font-weight: 40;
       list-style: none;
-      font-size: small;
+      font-size: 5px;
   }
   }
   li:not(:last-child){
@@ -960,5 +960,39 @@ li::before{
   li::before{
       content: "\2713";
   }
+
+  .title > h2 {
+    font-size: 20;
+  }
+
+  .card{
+    height: fit-content;
+  }
+  .card > h5{
+    font-size: smaller;
+    height: fit-content;
+  }
+.pra > p {
+  font-size: small;
+}
+
+.pra > ul p{
+  font-size: small;
+}
+  .pra > ul li {
+    color: black;
+    font-size: xx-small;
+    text-align: left;
+  
+  }
+  .box{
+    flex-direction: column;
+    height: fit-content;
+    
+  }
+
+@media only screen and (max-width : 692px){
+
+
 }
 
