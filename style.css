@@ -450,7 +450,7 @@ strong {
   FEATURED               
 -----------------------------------------*/
 .featured-section {
-  background-image: url('img.jpg');
+  background-color: #B0E0E6;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -561,6 +561,23 @@ strong {
   padding: 0;
 }
 
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 430px;
+	width: 335px;
+	padding: 20px 35px;
+	background: pink;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
 
 /*---------------------------------------
   BOOKING               
