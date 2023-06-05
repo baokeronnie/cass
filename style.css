@@ -578,6 +578,25 @@ strong {
 	overflow: hidden;
 	text-align: center;
 }
+.pra p{
+	color: black;
+    font-weight: 600;
+	font-size: 14px;
+	line-height: 27px;
+	margin-bottom: 10px;
+}
+.pra li{
+    color: black;
+    font-weight: 600;
+    list-style: none;
+    font-size: small;
+}
+li:not(:last-child){
+  margin-bottom: 15px;
+}
+li::before{
+  content: "\2713";
+}
 
 /*---------------------------------------
   BOOKING               
@@ -816,12 +835,68 @@ strong {
   .booking-form {
     padding: 45px;
   }
+  .card{
+    height: 350px;
+    width: 255px;
+    padding: 20px 35px;
+    background: pink;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .custom-btn {
     font-size: 14px;
     padding: 10px 20px;
+  }
+  .card{
+    height: 350px;
+    width: 255px;
+    padding: 20px 35px;
+    background: pink;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card{
+    height: 175px;
+    width: 255px;
+    padding: 20px 35px;
+    background: pink;
+    border-radius: 20px;
+    margin: 7.5px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  .pra p{
+    color: black;
+      font-weight: 40;
+    font-size: 6px;
+    line-height: 14px;
+    margin-bottom: 7px;
+  }
+  .pra li{
+      color: black;
+      font-weight: 40;
+      list-style: none;
+      font-size: small;
+  }
+  }
+  li:not(:last-child){
+      margin-bottom: 0px;
+  }
+  li::before{
+      content: "\2713";
   }
 }
 
@@ -852,6 +927,38 @@ strong {
 
   .booking-form {
     padding: 35px;
+  }
+  .card{
+    height: 350px;
+    width: 255px;
+    padding: 20px 35px;
+    background: pink;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    size: inherit;
+  }
+  .pra p{
+    color: black;
+      font-weight: 40;
+    font-size: 6px;
+    line-height: 14px;
+    margin-bottom: 7px;
+  }
+  .pra li{
+      color: black;
+      font-weight: 40;
+      list-style: none;
+      font-size: small;
+  }
+  }
+  li:not(:last-child){
+      margin-bottom: 0px;
+  }
+  li::before{
+      content: "\2713";
   }
 }
 
