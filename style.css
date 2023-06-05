@@ -594,7 +594,7 @@ strong {
 li:not(:last-child){
   margin-bottom: 15px;
 }
-li::before{
+.pra> li::before{
   content: "\2713";
 }
 
