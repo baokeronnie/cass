@@ -585,16 +585,16 @@ strong {
 	line-height: 27px;
 	margin-bottom: 10px;
 }
-.pra li{
+.pra ol{
     color: black;
     font-weight: 600;
     list-style: none;
     font-size: small;
 }
-li:not(:last-child){
+ol:not(:last-child){
   margin-bottom: 15px;
 }
-.pra> li::before{
+.pra> ol::before{
   content: "\2713";
 }
 
@@ -885,17 +885,17 @@ li:not(:last-child){
     line-height: 14px;
     margin-bottom: 7px;
   }
-  .pra li{
+  .pra ol{
       color: black;
       font-weight: 40;
       list-style: none;
       font-size: small;
   }
   }
-  li:not(:last-child){
+  ol:not(:last-child){
       margin-bottom: 0px;
   }
-  li::before{
+  ol::before{
       content: "\2713";
   }
 }
@@ -947,17 +947,17 @@ li:not(:last-child){
     line-height: 14px;
     margin-bottom: 7px;
   }
-  .pra li{
+  .pra ol{
       color: red;
       font-weight: 40;
       list-style: none;
       font-size: 5px;
   }
   }
-  li:not(:last-child){
+  ol:not(:last-child){
       margin-bottom: 0px;
   }
-  li::before{
+  ol::before{
       content: "\2713";
   }
 
@@ -979,7 +979,7 @@ li:not(:last-child){
 .pra > ul p{
   font-size: small;
 }
-  .pra > ul li {
+  .pra > ul ol {
     color: black;
     font-size: xx-small;
     text-align: left;
